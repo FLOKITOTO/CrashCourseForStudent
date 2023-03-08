@@ -14,6 +14,8 @@ import { ContactComponent } from './main/contact/contact.component';
 import { ProductItemComponent } from './_commons/components/product-item/product-item.component';
 import { ContentAllProductsComponent } from './_commons/components/content-all-products/content-all-products.component';
 import { ContentOneProductComponent } from './_commons/components/content-one-product/content-one-product.component';
+import { OneProductComponent } from './main/one-product/one-product.component';
+import { AllProductsComponent } from './main/all-products/all-products.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { ContentOneProductComponent } from './_commons/components/content-one-pr
     ProductItemComponent,
     ContentAllProductsComponent,
     ContentOneProductComponent,
+    OneProductComponent,
+    AllProductsComponent,
   ],
   imports: [
     BrowserModule,
