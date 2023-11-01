@@ -1,0 +1,36 @@
+.norm-all-products {
+  width: 100%;
+  height: 500rem;
+
+  .norm-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transition: margin-top 0.5s ease-in-out;
+
+    .norm-align {
+      width: 100%;
+      max-width: 1160px;
+      text-align: center;
+      transition: width 0.5s ease-in-out;
+
+      .norm-information-align {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .norm-contentainer-all-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .norm-content-all-product {
+      width: 100%;
+      max-width: 1160px;
+    }
+  }
+}

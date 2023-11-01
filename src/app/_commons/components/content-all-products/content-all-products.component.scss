@@ -1,6 +1,7 @@
-.pow-content-all-products {
+.norm-content-all-products {
   display: flex;
-  justify-content: center !important;
+  justify-content: center;
   flex-wrap: wrap;
-  max-width: 87.5rem !important;
+  flex-direction: row;
+  width: 100%;
 }

@@ -1,1 +1,22 @@
-<p>all-products works!</p>
+<div class="norm-all-products">
+  <div class="norm-info-container">
+    <div class="norm-align">
+      <div class="norm-information-align">
+        <app-information
+          class="norm-information"
+          title="nos savoureuses"
+          subTitle="épices"
+        ></app-information>
+      </div>
+    </div>
+  </div>
+
+  <div class="norm-contentainer-all-products">
+    <div class="norm-content-all-product">
+      <app-content-all-products
+        *ngIf="this.products"
+        [products]="this.products"
+      ></app-content-all-products>
+    </div>
+  </div>
+</div>
